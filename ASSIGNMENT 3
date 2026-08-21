@@ -1,0 +1,74 @@
+C:\Users\Subbarao\cli_notes>mkdir my_project
+
+C:\Users\Subbarao\cli_notes>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 00C4-56DB
+
+ Directory of C:\Users\Subbarao\cli_notes
+
+21-08-2026  22:30    <DIR>          .
+21-08-2026  22:19    <DIR>          ..
+21-08-2026  22:30    <DIR>          my_project
+               0 File(s)              0 bytes
+               3 Dir(s)  403,496,267,776 bytes free
+
+C:\Users\Subbarao\cli_notes>cd my_project
+
+C:\Users\Subbarao\cli_notes\my_project>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 00C4-56DB
+
+ Directory of C:\Users\Subbarao\cli_notes\my_project
+
+21-08-2026  22:30    <DIR>          .
+21-08-2026  22:30    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  403,496,333,312 bytes free
+
+C:\Users\Subbarao\cli_notes\my_project>mkdir src
+
+C:\Users\Subbarao\cli_notes\my_project>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 00C4-56DB
+
+ Directory of C:\Users\Subbarao\cli_notes\my_project
+
+21-08-2026  22:31    <DIR>          .
+21-08-2026  22:30    <DIR>          ..
+21-08-2026  22:31    <DIR>          src
+               0 File(s)              0 bytes
+               3 Dir(s)  403,496,103,936 bytes free
+
+C:\Users\Subbarao\cli_notes\my_project>mkdir docs
+
+C:\Users\Subbarao\cli_notes\my_project>mkdir test
+
+C:\Users\Subbarao\cli_notes\my_project>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 00C4-56DB
+
+ Directory of C:\Users\Subbarao\cli_notes\my_project
+
+21-08-2026  22:32    <DIR>          .
+21-08-2026  22:30    <DIR>          ..
+21-08-2026  22:32    <DIR>          docs
+21-08-2026  22:31    <DIR>          src
+21-08-2026  22:32    <DIR>          test
+               0 File(s)              0 bytes
+               5 Dir(s)  403,496,169,472 bytes free
+
+C:\Users\Subbarao\cli_notes\my_project>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 00C4-56DB
+
+ Directory of C:\Users\Subbarao\cli_notes\my_project
+
+21-08-2026  22:32    <DIR>          .
+21-08-2026  22:30    <DIR>          ..
+21-08-2026  22:32    <DIR>          docs
+21-08-2026  22:31    <DIR>          src
+21-08-2026  22:32    <DIR>          test
+               0 File(s)              0 bytes
+               5 Dir(s)  403,496,169,472 bytes free
+
+C:\Users\Subbarao\cli_notes\my_project>
