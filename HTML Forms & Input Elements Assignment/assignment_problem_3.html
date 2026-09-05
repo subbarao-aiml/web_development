@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Enrollment</title>
+</head>
+<body>
+  <h1>Online Course Enrollment</h1>
+  <p>Please fill out this form to register for a technical course.</p>
+
+  <form>
+    <label>Name:<input type="text" name="name" placeholder="Full Name" required></label><br>
+    <label>Email:<input type="email" name="email" placeholder="example@domain.com" required></label><br>
+    <label>Password:<input type="password" name="password" minlength="6" maxlength="12" required></label><br>
+    <label>Mobile:<input type="tel" name="mobile" pattern="[0-9]{10}" required></label><br>
+    <label>DOB:<input type="date" name="dob" required></label><br>
+
+    <label>Course:
+      <select name="course" required>
+        <option value="" disabled selected>Select</option>
+        <option>Java Programming</option>
+        <option>Python Programming</option>
+        <option>Web Development</option>
+        <option>Data Structures</option>
+        <option>Database Systems</option>
+        <option>Cloud Computing</option>
+      </select>
+    </label><br>
+
+    <label>Batch/Session:
+      <select name="batch" required>
+        <option value="" disabled selected>Select</option>
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+        <option>Weekend</option>
+      </select>
+    </label><br>
+
+    <p>Learning Mode:
+      <input type="radio" name="mode" value="online" required>Online
+      <input type="radio" name="mode" value="offline">Offline
+      <input type="radio" name="mode" value="hybrid">Hybrid
+    </p>
+
+    <p>Areas of Interest:
+      <input type="checkbox" name="interest" value="java">Java
+      <input type="checkbox" name="interest" value="python">Python
+      <input type="checkbox" name="interest" value="web">Web Development
+      <input type="checkbox" name="interest" value="ds">Data Structures
+      <input type="checkbox" name="interest" value="db">Database
+    </p>
+
+    <label>Education Level:<input type="text" name="education" required></label><br>
+    <label>College/Institution:<input type="text" name="college" required></label><br>
+    <label>Semester/Year:<input type="text" name="semester" required></label><br>
+
+    <label>Programming Experience (years):
+      <input type="number" name="experience" min="0" max="20" step="1">
+    </label><br>
+
+    <label>GitHub/Portfolio URL:<input type="url" name="portfolio"></label><br>
+
+    <label>Learning Goals:<br>
+      <textarea name="goals" rows="3" cols="40"></textarea>
+    </label><br>
+
+    <label><input type="checkbox" name="confirm" required>I confirm my details are correct</label><br>
+
+    <input type="submit" value="Enroll">
+    <input type="reset" value="Reset">
+  </form>
+
+  <p>More details? Visit our <a href="https://education.example.com/courses">Course Info Page</a></p>
+  <img src="course-image.png" alt="Course Image" width="200">
+</body>
+</html>

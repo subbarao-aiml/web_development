@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clinic Appointment</title>
+</head>
+<body>
+  <h1>Clinic Appointment Booking</h1>
+  <p>Fill this form to book an appointment.</p>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mobile">Mobile:</label>
+    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <label for="date">Appointment Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required><br><br>
+
+    <label for="doctor">Doctor:</label>
+    <select id="doctor" name="doctor" required>
+      <option value="" disabled selected>Select</option>
+      <option>Dr. Smith</option>
+      <option>Dr. Jones</option>
+      <option>Dr. Brown</option>
+      <option>Dr. White</option>
+      <option>Dr. Green</option>
+    </select><br><br>
+
+    <p>Visit Type:</p>
+    <input type="radio" id="new" name="visit" value="new" required>
+    <label for="new">New</label>
+    <input type="radio" id="follow" name="visit" value="follow">
+    <label for="follow">Follow-up</label>
+    <input type="radio" id="consult" name="visit" value="consult">
+    <label for="consult">Consultation</label>
+    <input type="radio" id="emergency" name="visit" value="emergency">
+    <label for="emergency">Emergency</label><br><br>
+
+    <label for="reason">Reason:</label><br>
+    <textarea id="reason" name="reason"></textarea><br><br>
+
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">Accept terms</label><br><br>
+
+    <input type="submit" value="Book">
+    <input type="reset" value="Reset">
+  </form>
+
+  <h2>Clinic Timings</h2>
+  <table border="1">
+    <tr><th>Day</th><th>Time</th></tr>
+    <tr><td>Mon-Fri</td><td>9am-6pm</td></tr>
+    <tr><td>Sat</td><td>10am-4pm</td></tr>
+    <tr><td>Sun</td><td>Closed</td></tr>
+  </table>
+
+  <p>Emergency? <a href="https://clinic.example.com/contact">Contact us</a></p>
+</body>
+</html>
