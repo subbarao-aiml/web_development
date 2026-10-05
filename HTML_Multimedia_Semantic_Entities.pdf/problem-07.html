@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Property Showcase</title>
+</head>
+<body>
+
+    <header>
+        <h1>Skyline Luxury Estates</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.skylinebuilders.com/projects">Project Overview</a></li>
+                <li><a href="https://www.makemytrip.com/hotels/skyline_luxury_studio-details-greater_noida.html">Amenities</a></li>
+                <li><a href="https://www.p4panorama.com/panos/skyline-ranch-360-virtual-tour/#google_vignette">Virtual Tour</a></li>
+                <li><a href="https://www.skylineglobalrealty.com/">Enquire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="overview">
+            <h2>Skyline Heights Luxury Apartments</h2>
+            <p>Premium 2 & 3 BHK residences starting from $250,000 !</p>
+            <p>Total Area > 1,200 sq. ft. with 100% power backup .</p>
+            <blockquote>
+                "Living at Skyline Heights offers unparalleled comfort and scenic city views ."
+                <br>— <cite>Happy Homeowner ©</cite>
+            </blockquote>
+
+            <figure>
+                <img src="https://www.makemytrip.com/hotels/skyline_luxury_apartment-details-noida.html" alt="Modern Apartment Building" width="400" height="250">
+                <figcaption>Skyline Heights Exterior View ®</figcaption>
+            </figure>
+        </section>
+
+        <section id="media">
+            <h2>Property Tour & Location</h2>
+            <h3>Virtual Walkthrough Video</h3>
+            <video controls width="400" height="250">
+                <source src="property-tour.mp4" type="video/mp4">
+            </video>
+
+            <h3>Sales Agent Audio Overview</h3>
+            <audio controls>
+                <source src="agent-audio.mp3" type="audio/mpeg">
+            </audio>
+
+            <h3>Interactive Project Map</h3>
+            <iframe src="https://www.google.com/maps/embed" width="400" height="250" title="Property Map"></iframe>
+        </section>
+
+        <section id="amenities">
+            <h2>Amenities & Purchasing Steps</h2>
+            <ul>
+                <li>Infinity Swimming Pool</li>
+                <li>Fully Equipped Fitness Gym</li>
+                <li>24/7 Security & CCTV Monitoring</li>
+            </ul>
+
+            <h3>Buying Steps</h3>
+            <ol>
+                <li>Schedule a site visit or virtual tour .</li>
+                <li>Select preferred apartment unit & floor .</li>
+                <li>Submit booking application with token amount .</li>
+                <li>Complete bank loan documentation and sign agreement .</li>
+            </ol>
+
+            <dl>
+                <dt>Carpet Area</dt>
+                <dd>Net usable floor area inside the apartment walls.</dd>
+                <dt>Maintenance</dt>
+                <dd>Monthly fee for common facility upkeep.</dd>
+                <dt>Possession</dt>
+                <dd>Expected key handover and move-in date.</dd>
+                <dt>Booking Amount</dt>
+                <dd>10% initial payment required to block the unit.</dd>
+            </dl>
+
+            <table border="1">
+                <caption>Available Property Configurations</caption>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Carpet Area</th>
+                        <th>Bedrooms</th>
+                        <th>Floor</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2 BHK Classic</td>
+                        <td>850 sq ft</td>
+                        <td>2</td>
+                        <td>1st - 5th</td>
+                        <td>$250,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2 BHK Deluxe</td>
+                        <td>950 sq ft</td>
+                        <td>2</td>
+                        <td>6th - 10th</td>
+                        <td>$280,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>3 BHK Premium</td>
+                        <td>1,200 sq ft</td>
+                        <td>3</td>
+                        <td>1st - 8th</td>
+                        <td>$350,000</td>
+                        <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>3 BHK Luxury</td>
+                        <td>1,400 sq ft</td>
+                        <td>3</td>
+                        <td>9th - 15th</td>
+                        <td>$400,000</td>
+                        <td>Limited</td>
+                    </tr>
+                    <tr>
+                        <td>4 BHK Penthouse</td>
+                        <td>2,200 sq ft</td>
+                        <td>4</td>
+                        <td>16th Floor</td>
+                        <td>$650,000</td>
+                        <td>1 Unit Left</td>
+                    </tr>
+                    <tr>
+                        <td>Studio Apartment</td>
+                        <td>500 sq ft</td>
+                        <td>1</td>
+                        <td>Ground Floor</td>
+                        <td>$180,000</td>
+                        <td>Sold Out</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="enquiry">
+            <h2>Property Enquiry Form</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="bname">Buyer Name:</label><br>
+                    <input type="text" id="bname" name="buyer_name" required>
+                </p>
+                <p>
+                    <label for="bemail">Email:</label><br>
+                    <input type="email" id="bemail" name="email" required>
+                </p>
+                <p>
+                    <label for="bphone">Mobile:</label><br>
+                    <input type="tel" id="bphone" name="phone" required>
+                </p>
+                <p>
+                    <label for="ptype">Property Type:</label><br>
+                    <select id="ptype" name="property_type">
+                        <option value="2bhk">2 BHK Apartment</option>
+                        <option value="3bhk">3 BHK Apartment</option>
+                        <option value="4bhk">4 BHK Penthouse</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="budget">Estimated Budget:</label><br>
+                    <input type="text" id="budget" name="budget">
+                </p>
+                <p>
+                    <label for="vdate">Preferred Visit Date:</label><br>
+                    <input type="date" id="vdate" name="visit_date">
+                </p>
+                <p>
+                    <label>Financing Required?</label><br>
+                    <input type="radio" id="fyes" name="finance" value="yes">
+                    <label for="fyes">Yes</label>
+                    <input type="radio" id="fno" name="finance" value="no">
+                    <label for="fno">No</label>
+                </p>
+                <p>
+                    <label for="msg">Message & Requirements:</label><br>
+                    <textarea id="msg" name="message" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I consent to receive callback from sales agent .</label>
+                </p>
+                <p>
+                    <input type="submit" value="Submit Enquiry">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Site Office Hours</h3>
+        <p>Open daily from 09:00 AM - 06:00 PM</p>
+    </aside>
+
+    <footer>
+        <p> 2026 Skyline Luxury Estates | Real Estate Registration No. 102938</p>
+    </footer>
+
+</body>
+</html>
